@@ -3,7 +3,7 @@
 //  Swift App 1
 //
 //  Created by Brigan Enser on 11/29/16.
-//  Copyright © 2016 Brigan Enser. All rights reserved.
+//  Copyright © 2016 Brigan Enser. All rights reserved...
 //
 
 import UIKit
