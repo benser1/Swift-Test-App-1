@@ -18,9 +18,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func pushButton(_ sender: Any) {
-        
-        print(text1.text!)
-        print(text2.text!)
+        // Displays value properly. Need to add in logic if not integer.
+        if text1.text! != "" && text2.text! != "" {
+            theLabel.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+        } else {
+            theLabel.text = "PLZ enter values"
+        }
         
     }
     
